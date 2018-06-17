@@ -38,6 +38,7 @@
   "jest": {
     "moduleNameMapper": {
       "\\.(css)$": "<rootDir>/node_modules/jest-css-modules"
-    }
+    },
+    "setupTestFrameworkScriptFile": "<rootDir>/test/setupTests.js"
   }
 }
